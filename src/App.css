@@ -17,6 +17,10 @@ h1, p{
     color: #cac8c8;
 }
 
+h1{
+    text-align: center;
+}
+
 .currency-one-text{
     color: #70757a;
     font-family: Roboto, HelveticaNeue, Arial, sans-serif;
