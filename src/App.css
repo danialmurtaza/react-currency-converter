@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+}
+
+.main-div{
+    background-color: #202124;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 450px;
+    margin: 60px auto 0px auto;
+}
+
+h1, p{
+    color: #cac8c8;
+}
+
+.currency-one-text{
+    color: #70757a;
+    font-family: Roboto, HelveticaNeue, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.rate-text{
+    color: #cac8c8;
+    font-family: Google sans, arial, sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    margin: 0;
+}
+
+.date{
+    color: #70757a;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+
+/* CURRENCY INPUT CSS */
+.wrapper{
+    display: flex;
+    padding: 30px;
+}
+
+input, select{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: #cac8c8;
+}
+
+input{
+    border-top-left-radius: 10px;
+}
+
+select{
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 425px){
+    .main-div{
+        width: 380px;
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    .main-div{
+        width: 350px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .main-div{
+        width: 315px;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+}
